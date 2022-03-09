@@ -16,7 +16,7 @@ printf $1 "/" $2 " OR ";
 inttel=$1;
 sub(/0/,intv,inttel);
 print inttel $2
-print makeNr($1,2,0) " " makeNr($,2,1);
+print makeNr($1,2,0) " " makeNr($2,2,1);
 #and so on
 }
 
